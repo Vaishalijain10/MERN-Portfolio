@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 // Update CORS to allow requests from your frontend's deployed URL
 app.use(
   cors({
-    origin: "https://mern-portfolio-taupe.vercel.app", // Your frontend's Vercel domain
+    origin: "https://mern-portfolio-iota.vercel.app", // Your frontend's Vercel domain
     methods: ["POST", "GET"],
     credentials: true
   })
