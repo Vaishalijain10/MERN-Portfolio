@@ -13,7 +13,9 @@ app.use(bodyParser.json());
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: {"http://MERN-Portfolio.vercel.app"},
+    methods: {"POST", "GET"},
+    credentials: true
   })
 );
 
