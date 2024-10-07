@@ -1,0 +1,55 @@
+NODE.JS setup in the system:
+1. Originally, after installing node.js from the browser - you have to globally initilize to access the node and npm in your system.
+    Command is as follows:
+            npm install create-react-app --global
+2. To check the version of node and npm 
+    Command is as follows: 
+            node -v
+            npm -v
+
+Git setup in the sstem:
+1. git config --global user.email "you@example.com"
+   git config --global user.name "Your Name"
+   git config --global user.pass "password"
+-------------
+Frontend  
+-------------
+1. npx create-react-app .
+2. npm start (to run) 
+[delete all the files - except - app.js, index.css, index.js, .gitignore.. etc]
+3. tailwind css - (refer documentaion)
+    npm install -D tailwindcss
+    npx tailwindcss init
+4. npm install react-router-dom 
+5. npm install react-icons --save
+6. npm install @react-icons/all-files --save
+7. npm install react-toastify
+
+Steps - 
+1. setup the folder structure 
+2. setup the routes (import react-router-dom)
+3. import react icons and react-toastify
+
+notes for Frontend -
+1. Breakpoint prefix	Minimum width	        CSS
+        sm	               640px         @media (min-width: 640px) { ... }
+        md	               768px         @media (min-width: 768px) { ... }
+        lg	               1024px        @media (min-width: 1024px) { ... }
+        xl	               1280px        @media (min-width: 1280px) { ... }
+        2xl	               1536px        @media (min-width: 1536px) { ... } 
+
+
+-------------
+Backend 
+-------------
+1. npm init -y
+2. npm i express 
+3. npm i body-parser
+4. npm i cors
+5. npm i dotenv
+6. npm i nodemailer
+7. npm i nodemon
+
+
+
+
