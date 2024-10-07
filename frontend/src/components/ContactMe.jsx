@@ -31,7 +31,8 @@ export default function ContactMe() {
     try {
       // Send form data to backend
       const backendURL = "https://mern-portfolio-hnyv.vercel.app"; 
-      const response = await axios.post(`${backendURL}/send`, formData);
+      
+      const response = await axios.post("https://mern-portfolio-hnyv.vercel.app/send", formData);
 
       if (response.status === 200) {
         // Display success toast notification
