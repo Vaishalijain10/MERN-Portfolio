@@ -11,19 +11,14 @@ const app = express();
 // Use the bodyParser middleware to parse JSON request bodies
 app.use(bodyParser.json());
 
+// Update CORS to allow requests from your frontend's deployed URL
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://mern-portfolio-taupe.vercel.app", // Your frontend's Vercel domain
+    methods: ["POST", "GET"],
+    credentials: true
   })
 );
-
-// app.use(
-//   cors({
-//     origin: {"http://MERN-Portfolio.vercel.app"},
-//     methods: {"POST", "GET"},
-//     credentials: true
-//   })
-// );
 
 // testing
 app.get("/", (req, res) => {
