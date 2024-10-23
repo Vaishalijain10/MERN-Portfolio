@@ -40,15 +40,7 @@ export default function Projects() {
             link1="https://talk-a-tive-kzf0.onrender.com/"
             link2="https://github.com/Vaishalijain10/MERN-Live-Chat-App"
           />
-          <Cards
-            image={DealsOnWheels}
-            title="Deals On Wheels"
-            text="Deals On Wheels is your ultimate destination for an extensive selection of cars from five top brands.  
-            Our one-stop shop makes it easy to find the perfect vehicle for your needs.    
-            Visit our user-friendly website to explore exclusive deals and drive away with your ideal car today!  "
-            link1="https://deals-on-wheels.vercel.app/"
-            link2="https://github.com/Vaishalijain10/deals_on_wheels"
-          />
+        
           <Cards
             image={LifeStyle}
             title="LifeStyle"
@@ -57,6 +49,15 @@ export default function Projects() {
                   All pieces are beautifully crafted and available at affordable prices, also makes it easy to find the perfect jewelry from the comfort of your home."
             link1="https://github.com/Vaishalijain10/LifeStyle"
             link2="https://github.com/Vaishalijain10/LifeStyle"
+          />
+            <Cards
+            image={DealsOnWheels}
+            title="Deals On Wheels"
+            text="Deals On Wheels is your ultimate destination for an extensive selection of cars from five top brands.  
+            Our one-stop shop makes it easy to find the perfect vehicle for your needs.    
+            Visit our user-friendly website to explore exclusive deals and drive away with your ideal car today!  "
+            link1="https://deals-on-wheels.vercel.app/"
+            link2="https://github.com/Vaishalijain10/deals_on_wheels"
           />
         </div>
       </div>
