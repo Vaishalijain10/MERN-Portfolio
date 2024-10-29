@@ -11,9 +11,12 @@ const app = express();
 // Use the bodyParser middleware to parse JSON request bodies
 app.use(bodyParser.json());
 
+// Update CORS to allow requests from your frontend's deployed URL
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://mern-portfolio-iota.vercel.app", // Your frontend's Vercel domain
+    methods: ["POST", "GET"],
+    credentials: true
   })
 );
 
