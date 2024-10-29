@@ -16,7 +16,7 @@ app.use(
   cors({
     origin: "https://mern-portfolio-iota.vercel.app", // Your frontend's Vercel domain
     methods: ["POST", "GET"],
-    credentials: true
+    credentials: true,
   })
 );
 
@@ -66,5 +66,5 @@ app.post("/send", (req, res) => {
 
 // Start the express server
 app.listen(5000, () => {
-  console.log("Server started on port 5000");
+  console.log("Server started on port ", "5000");
 });
