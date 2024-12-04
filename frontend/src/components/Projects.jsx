@@ -1,9 +1,8 @@
 import React from "react";
 import Cards from "./Cards";
-import Realtor from "../Images/Realtor.png";
 import LifeStyle from "../Images/LifeStyle.png";
-import DealsOnWheels from "../Images/dealsOnWheels.png";
 import LiveChatApp from "../Images/Live-Chat-App.png";
+import DoCo from "../Images/DoCo.png";
 export default function Projects() {
   return (
     <div className="bg-[#1e1e1e] w-[100%] ">
@@ -41,7 +40,7 @@ export default function Projects() {
             link2="https://github.com/Vaishalijain10/LifeStyle"
           />
           <Cards
-            image={DoCo - DoConnectBank}
+            image={DoCo}
             title="DoCo-Do Connect Bank!"
             text="DoCo-Bank Connect is a secure platform offering seamless banking services and user profile management. Features include OTP-based signup and sign-in, balance inquiries, fund transfers, deposits, withdrawals, and transaction tracking. Profiles are protected with hashed credentials and limited editing options, ensuring robust security while delivering an efficient and user-friendly banking experience."
             link1="https://do-connect-bank.vercel.app"
